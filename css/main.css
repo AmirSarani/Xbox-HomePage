@@ -1,0 +1,1234 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div.head {
+  width: 100%;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0.22);
+  padding-left: 60px;
+  display: flex;
+  flex-flow: row;
+}
+
+div.head > div.head1 {
+  width: 280px;
+  height: inherit;
+  /* background-color: blueviolet; */
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+}
+
+div.head > div.head1 > a > img {
+  width: 120px;
+  height: 25px;
+}
+
+div.head > div.head1 > a > img.xaks {
+  padding-right: 20px;
+}
+
+div.head > div.head1 > a > img.xaks2 {
+  padding-left: 20px;
+  border-left: 2px solid black;
+}
+
+div.head > div.head2 {
+  width: 630px;
+  height: inherit;
+  /* background-color: chartreuse; */
+}
+
+div.head > div.head2 > ul {
+  list-style: none;
+  display: flex;
+  flex-flow: row;
+}
+
+div.head > div.head2 > ul > li {
+  text-align: center;
+  margin: 12px;
+  padding-top: 3px;
+  padding-bottom: 2px;
+  font-size: small;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div.head > div.head2 > ul > li:hover {
+  border-bottom: 2px solid black;
+}
+
+div.head > div.head3 {
+  width: 280px;
+  height: inherit;
+  /* background-color: chocolate; */
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+}
+
+div.head > div.head3 > ul > li {
+  list-style: none;
+}
+
+div.head > div.head3 > ul > li > a.allm {
+  margin: 5px;
+  margin-left: 15px;
+  padding-bottom: 2px;
+}
+
+div.head > div.head3 > ul > li > a.allm:hover {
+  border-bottom: 2px solid black;
+}
+
+div.head > div.head3 > a > img.zarbin {
+  width: 32px;
+  height: 32px;
+  margin: 5px;
+  margin-left: 10px;
+}
+
+div.head > div.head3 > a > img.sabad {
+  width: 22px;
+  height: 22px;
+  margin: 5px;
+  margin-left: 15px;
+}
+
+div.head > div.head3 > a > img.user {
+  width: 32px;
+  height: 32px;
+  margin: 5px;
+  margin-left: 15px;
+}
+
+.swiper {
+  width: 100%;
+  height: 495px;
+}
+
+div.swiper > div.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.swiper > div.swiper-slide > img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#h511 {
+  background-color: yellow;
+  margin-bottom: 15px;
+  width: 90px;
+}
+
+#h111 {
+  color: white;
+  width: 400px;
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+
+#h112 {
+  color: white;
+  width: 350px;
+  margin-bottom: 20px;
+}
+
+div.swiper-slide > div.get1 > ul {
+  width: 160px;
+  height: 31px;
+  text-align: center;
+  background-color: greenyellow;
+  padding-top: 5px;
+  font-size: large;
+}
+
+div.swiper-slide > div.get1 > ul > li > a {
+  color: green;
+  margin-top: 20px;
+  list-style: none;
+}
+
+div.swiper-slide > div.get1 > ul > li > a:hover {
+  border-bottom: 2px solid green;
+}
+
+#h521 {
+  background-color: yellow;
+  margin-bottom: 15px;
+  width: 155px;
+}
+
+#h121 {
+  color: white;
+  width: 400px;
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+
+#h122 {
+  color: white;
+  width: 350px;
+  margin-bottom: 20px;
+}
+
+div.swiper-slide > div.get2 > ul {
+  width: 160px;
+  height: 31px;
+  text-align: center;
+  background-color: greenyellow;
+  padding-top: 5px;
+  font-size: large;
+  list-style: none;
+}
+
+div.swiper-slide > div.get2 > ul > li > a {
+  color: green;
+  margin-top: 20px;
+}
+
+div.swiper-slide > div.get2 > ul > li > a:hover {
+  border-bottom: 2px solid green;
+}
+
+#h531 {
+  background-color: yellow;
+  margin-bottom: 15px;
+  width: 115px;
+}
+
+#h131 {
+  color: white;
+  width: 400px;
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+
+#h132 {
+  color: white;
+  width: 350px;
+  margin-bottom: 20px;
+}
+
+div.swiper-slide > div.get3 > ul {
+  width: 160px;
+  height: 31px;
+  text-align: center;
+  background-color: greenyellow;
+  padding-top: 5px;
+  font-size: large;
+  list-style: none;
+}
+
+div.swiper-slide > div.get3 > ul > li > a {
+  color: green;
+  margin-top: 20px;
+}
+
+div.swiper-slide > div.get3 > ul > li > a:hover {
+  border-bottom: 2px solid green;
+}
+
+div.navar {
+  width: 100%;
+  height: 150px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+  column-gap: 60px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div.navar > div.item1 > img {
+  margin: 0 10px 0 10px;
+}
+
+div.navar > div.item1 > div.aul {
+  width: 100%;
+  height: 15px;
+}
+
+div.navar > div.item1 > div.aul > ul {
+  color: green;
+  list-style: none;
+}
+
+div.navar > div.item1 > div.aul > ul > li {
+  text-align: center;
+}
+
+div.navar > div.item1 > div.aul > ul > li:hover {
+  border-bottom: 3px green solid;
+}
+
+div.navar > div.item2 > img {
+  margin: 0 10px 0 10px;
+}
+
+div.navar > div.item2 > div.aul2 {
+  width: 100%;
+  height: 15px;
+}
+
+div.navar > div.item2 > div.aul2 > ul {
+  color: green;
+  list-style: none;
+}
+
+div.navar > div.item2 > div.aul2 > ul:hover {
+  border-bottom: 3px green solid;
+}
+
+div.navar > div.item2 > div.aul2 > ul > li {
+  text-align: center;
+}
+
+div.navar > div.item3 > img {
+  margin: 0 10px 0 10px;
+}
+
+div.navar > div.item3 > div.aul3 {
+  width: 100%;
+  height: 15px;
+}
+
+div.navar > div.item3 > div.aul3 > ul {
+  color: green;
+  list-style: none;
+}
+
+div.navar > div.item3 > div.aul3 > ul:hover {
+  border-bottom: 3px green solid;
+}
+
+div.navar > div.item3 > div.aul3 > ul > li {
+  text-align: center;
+}
+
+div.navar > div.item4 > img {
+  padding-left: 15px;
+}
+
+div.navar > div.item4 > div.aul4 {
+  width: 100%;
+  height: 15px;
+}
+
+div.navar > div.item4 > div.aul4 > ul {
+  color: green;
+  list-style: none;
+}
+
+div.navar > div.item4 > div.aul4 > ul:hover {
+  border-bottom: 3px green solid;
+}
+
+div.navar > div.item5 > div.aul5 {
+  width: 100%;
+  height: 15px;
+}
+
+div.navar > div.item5 > div.aul5 > ul {
+  color: green;
+  list-style: none;
+}
+
+div.navar > div.item5 > div.aul5 > ul:hover {
+  border-bottom: 3px green solid;
+}
+
+div.navar > div.item5 > div.aul5 > ul > li {
+  text-align: center;
+}
+
+div.navar > div.item6 > div.aul6 {
+  width: 100%;
+  height: 15px;
+}
+
+div.navar > div.item6 > div.aul6 > ul {
+  color: green;
+  list-style: none;
+}
+
+div.navar > div.item6 > div.aul6 > ul:hover {
+  border-bottom: 3px green solid;
+}
+
+div.navar > div.item6 > div.aul6 > ul > li {
+  text-align: center;
+}
+
+div.aks {
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+}
+
+div.aks > div.aksb1 {
+  width: 50%;
+  height: auto;
+}
+
+div.aks > div.aksb1 > div.item1 {
+  width: 99%;
+  height: 620px;
+  background-color: blueviolet;
+  position: relative;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  background-image: url(./amyako.jpg);
+  background-size: cover;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-position: center;
+}
+
+div.aks > div.aksb1 > div.item1 > div.i1mtn {
+  width: 91%;
+  height: 45%;
+  position: absolute;
+  bottom: 0;
+  margin: 20px 20px 20px 40px;
+}
+
+div.aks > div.aksb1 > div.item1 > div.i1mtn > h2 {
+  font-size: 50px;
+  padding-bottom: 25px;
+}
+
+div.aks > div.aksb1 > div.item1 > div.i1mtn > p {
+  padding-bottom: 25px;
+}
+
+div.aks > div.aksb1 > div.item1 > div.i1mtn > span {
+  font-size: large;
+  user-select: none;
+}
+
+div.aks > div.aksb1 > div.item1 > div.i1mtn > span:hover {
+  border-bottom: 3px solid black;
+  transition: all 150ms linear;
+}
+
+div.aks > div.aksb1 > div.item2 {
+  width: 99%;
+  height: 320px;
+  background-color: green;
+  display: flex;
+  flex-flow: row;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  overflow: hidden;
+}
+
+div.aks > div.aksb1 > div.item2 > div.i2aks {
+  width: 50%;
+  height: inherit;
+  background-color: black;
+  background-image: url(./aksi4.jpg);
+  background-size: cover;
+  background-position: center top;
+}
+
+div.aks > div.aksb1 > div.item2 > div.i2aks:hover {
+  transform: scale(1.1);
+  transition: all 200ms linear;
+}
+
+div.aks > div.aksb1 > div.item2 > div.i2mtn {
+  width: 50%;
+  height: 270px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 40px;
+  margin-right: 20px;
+  padding-left: 20px;
+}
+
+div.aks > div.aksb1 > div.item2 > div.i2mtn > h2 {
+  margin-bottom: 30px;
+  color: white;
+}
+
+div.aks > div.aksb1 > div.item2 > div.i2mtn > h3 {
+  font-size: small;
+  color: white;
+  margin-bottom: 30px;
+}
+
+div.aks > div.aksb1 > div.item2 > div.i2mtn > span {
+  width: 160px;
+  height: 35px;
+  text-align: center;
+  font-size: large;
+  color: white;
+  user-select: none;
+}
+
+div.aks > div.aksb1 > div.item2 > div.i2mtn > span:hover {
+  border-bottom: 3px solid lawngreen;
+  color: lightgreen;
+  transition: all 150ms linear;
+}
+
+div.aks > div.aksb1 > div.item3 {
+  width: 99%;
+  height: 320px;
+  display: flex;
+  flex-flow: row;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  background-color: green;
+  overflow: hidden;
+}
+
+div.aks > div.aksb1 > div.item3 > div.i3mtn {
+  width: 50%;
+  height: 270px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 25px;
+  padding-left: 20px;
+}
+
+div.aks > div.aksb1 > div.item3 > div.i3mtn > h5 {
+  background-color: yellow;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+  width: 125px;
+}
+
+div.aks > div.aksb1 > div.item3 > div.i3mtn > h2 {
+  margin-bottom: 30px;
+  color: white;
+}
+
+div.aks > div.aksb1 > div.item3 > div.i3mtn > h3 {
+  font-size: small;
+  color: white;
+  margin-bottom: 30px;
+}
+
+div.aks > div.aksb1 > div.item3 > div.i3mtn > span {
+  width: 160px;
+  height: 35px;
+  text-align: center;
+  font-size: large;
+  color: white;
+  user-select: none;
+}
+
+div.aks > div.aksb1 > div.item3 > div.i3mtn > span:hover {
+  border-bottom: 3px solid lawngreen;
+  color: lightgreen;
+  transition: all 150ms linear;
+}
+
+div.aks > div.aksb1 > div.item3 > div.i3aks {
+  width: 50%;
+  height: inherit;
+  background-color: black;
+  background-image: url(./aks1i1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+div.aks > div.aksb1 > div.item3 > div.i3aks:hover {
+  transform: scale(1.1);
+  transition: all 200ms linear;
+}
+
+div.aks > div.aksb2 {
+  width: 50%;
+  margin-left: 3px;
+}
+
+div.aks > div.aksb2 > div.item1 {
+  width: 99%;
+  height: 320px;
+  background-color: green;
+  margin-bottom: 5px;
+  display: flex;
+  flex-flow: row;
+  overflow: hidden;
+}
+
+div.aks > div.aksb2 > div.item1 > div.i1mtn {
+  width: 50%;
+  height: 270px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 25px;
+  padding-left: 20px;
+}
+
+div.aks > div.aksb2 > div.item1 > div.i1mtn > h5 {
+  background-color: yellow;
+  margin-bottom: 20px;
+  text-align: center;
+  width: 125px;
+}
+
+div.aks > div.aksb2 > div.item1 > div.i1mtn > h2 {
+  margin-bottom: 30px;
+  color: white;
+}
+
+div.aks > div.aksb2 > div.item1 > div.i1mtn > h3 {
+  font-size: small;
+  color: white;
+  margin-bottom: 30px;
+}
+
+div.aks > div.aksb2 > div.item1 > div.i1mtn > span {
+  width: 160px;
+  height: 35px;
+  text-align: center;
+  font-size: large;
+  color: white;
+  user-select: none;
+}
+
+div.aks > div.aksb2 > div.item1 > div.i1mtn > span:hover {
+  border-bottom: 3px solid lawngreen;
+  color: lightgreen;
+  transition: all 150ms linear;
+}
+
+div.aks > div.aksb2 > div.item1 > div.i1aks {
+  width: 50%;
+  height: inherit;
+  background-color: black;
+  background-image: url(./morimor1aks.jpg);
+  background-size: cover;
+  background-position: center;
+}
+div.aks > div.aksb2 > div.item1 > div.i1aks:hover {
+  transform: scale(1.1);
+  transition: all 200ms linear;
+}
+
+div.aks > div.aksb2 > div.item2 {
+  width: 99%;
+  height: 620px;
+  background-image: url(./aksi3.jpg);
+  background-size: cover;
+  background-position: top center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 5px;
+  padding: 400px 50px 25px 40px;
+}
+
+div.aks > div.aksb2 > div.item2 > div.i2aks {
+  width: 490px;
+  height: 208px;
+}
+
+div.aks > div.aksb2 > div.item2 > div.i2aks > h2 {
+  font-size: 50px;
+  padding-bottom: 30px;
+}
+
+div.aks > div.aksb2 > div.item2 > div.i2aks > p {
+  padding-bottom: 30px;
+}
+
+div.aks > div.aksb2 > div.item2 > div.i2aks > span {
+  font-size: large;
+  user-select: none;
+}
+
+div.aks > div.aksb2 > div.item2 > div.i2aks > span:hover {
+  border-bottom: 3px solid black;
+  transition: all 150ms linear;
+}
+
+div.aks > div.aksb2 > div.item3 {
+  width: 99%;
+  height: 320px;
+  background-color: green;
+  margin-bottom: 5px;
+  display: flex;
+  flex-flow: row;
+  overflow: hidden;
+}
+
+div.aks > div.aksb2 > div.item3 > div.i3mtn {
+  width: 50%;
+  height: 270px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 40px;
+  margin-right: 20px;
+  padding-left: 20px;
+}
+
+div.aks > div.aksb2 > div.item3 > div.i3mtn > h2 {
+  margin-bottom: 35px;
+  color: white;
+}
+
+div.aks > div.aksb2 > div.item3 > div.i3mtn > h3 {
+  font-size: small;
+  color: white;
+  margin-bottom: 35px;
+}
+
+div.aks > div.aksb2 > div.item3 > div.i3mtn > span {
+  width: 160px;
+  height: 35px;
+  text-align: center;
+  font-size: large;
+  color: white;
+  user-select: none;
+}
+
+div.aks > div.aksb2 > div.item3 > div.i3mtn > span:hover {
+  border-bottom: 3px solid lawngreen;
+  color: lightgreen;
+  transition: all 150ms linear;
+}
+
+div.aks > div.aksb2 > div.item3 > div.i3aks {
+  width: 50%;
+  height: inherit;
+  background-color: black;
+  background-image: url(./aks1i2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+div.aks > div.aksb2 > div.item3 > div.i3aks:hover {
+  transform: scale(1.1);
+  transition: all 200ms linear;
+}
+
+div.bg1 {
+  width: 99%;
+  height: 485px;
+  background-image: url(./xboxbg1.jpg);
+  background-size: cover;
+  background-position: center;
+  margin: 0 5px 5px 5px;
+  padding: 100px 40px 30px 800px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div.bg1 > h2 {
+  font-size: 50px;
+  margin-bottom: 35px;
+}
+
+div.bg1 > h3 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: x-large;
+  margin-bottom: 35px;
+}
+
+div.bg1 > div.bgspan {
+  width: 150px;
+  height: 30px;
+  background-color: greenyellow;
+  text-align: center;
+  font-size: large;
+}
+
+div.bg1 > div.bgspan > span {
+  color: green;
+  user-select: none;
+}
+
+div.bg1 > div.bgspan > span:hover {
+  border-bottom: 3px solid green;
+  transition: all 150ms linear;
+}
+
+div.aks2 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: row;
+}
+
+div.aks2 > div.aks2b1 {
+  width: 50%;
+  margin-bottom: 50px;
+}
+
+div.aks2 > div.aks2b1 > div.item1 {
+  width: 99%;
+  height: 320px;
+  display: flex;
+  flex-flow: row;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  background-color: green;
+  overflow: hidden;
+}
+
+div.aks2 > div.aks2b1 > div.item1 > div.i1mtn {
+  width: 50%;
+  height: 270px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-left: 20px;
+  padding-top: 40px;
+}
+
+div.aks2 > div.aks2b1 > div.item1 > div.i1mtn > h5 {
+  background-color: yellow;
+  margin-bottom: 20px;
+  text-align: center;
+  width: 125px;
+}
+
+div.aks2 > div.aks2b1 > div.item1 > div.i1mtn > h2 {
+  margin-bottom: 30px;
+  color: white;
+}
+
+div.aks2 > div.aks2b1 > div.item1 > div.i1mtn > h3 {
+  font-size: small;
+  color: white;
+  margin-bottom: 30px;
+}
+
+div.aks2 > div.aks2b1 > div.item1 > div.i1mtn > span {
+  width: 160px;
+  height: 35px;
+  text-align: center;
+  font-size: large;
+  color: white;
+  user-select: none;
+}
+
+div.aks2 > div.aks2b1 > div.item1 > div.i1mtn > span:hover {
+  border-bottom: 3px solid lawngreen;
+  color: lightgreen;
+  transition: all 150ms linear;
+}
+
+div.aks2 > div.aks2b1 > div.item1 > div.i1aks {
+  width: 50%;
+  height: inherit;
+  background-color: black;
+  background-image: url(./aks3i1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+div.aks2 > div.aks2b1 > div.item1 > div.i1aks:hover {
+  transform: scale(1.1);
+  transition: all 200ms linear;
+}
+
+div.aks2 > div.aks2b1 > div.item2 {
+  width: 99%;
+  height: 320px;
+  display: flex;
+  flex-flow: row;
+  padding-right: 3px;
+  overflow: hidden;
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+
+div.aks2 > div.aks2b1 > div.item2 > div.aks2i2 {
+  width: 50%;
+  height: inherit;
+  background-color: black;
+  background-image: url(./aks4i1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+div.aks2 > div.aks2b1 > div.item2 > div.aks2i2:hover {
+  transform: scale(1.1);
+  transition: all 200ms linear;
+}
+
+div.aks2 > div.aks2b1 > div.item2 > div.aks2mtn {
+  width: 50%;
+  height: 270px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 40px;
+  margin-right: 20px;
+  padding-left: 20px;
+}
+
+div.aks2 > div.aks2b1 > div.item2 > div.aks2mtn > h2 {
+  margin-bottom: 35px;
+  margin-top: 25px;
+}
+
+div.aks2 > div.aks2b1 > div.item2 > div.aks2mtn > h3 {
+  font-size: smaller;
+  margin-bottom: 35px;
+}
+
+div.aks2 > div.aks2b1 > div.item2 > div.aks2mtn > span {
+  user-select: none;
+}
+div.aks2 > div.aks2b1 > div.item2 > div.aks2mtn > span:hover {
+  border-bottom: 3px solid black;
+
+  transition: all 150ms linear;
+}
+
+div.aks2 > div.aks2b1 > div.item3 {
+  width: 99%;
+  height: 620px;
+  background-color: orange;
+  background-image: url(./aks4i3.jpg);
+  background-size: cover;
+  background-position: center top;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div.aks2 > div.aks2b1 > div.item3 > div.mtni3 {
+  width: 580px;
+  height: 250px;
+  padding-top: 300px;
+  margin: 0px 20px 3px 40px;
+}
+
+div.aks2 > div.aks2b1 > div.item3 > div.mtni3 > h2 {
+  margin-bottom: 30px;
+  font-size: 50px;
+  color: white;
+}
+
+div.aks2 > div.aks2b1 > div.item3 > div.mtni3 > h3 {
+  font-size: medium;
+  margin-bottom: 30px;
+  color: white;
+}
+
+div.aks2 > div.aks2b1 > div.item3 > div.mtni3 > span {
+  width: 160px;
+  height: 35px;
+  text-align: center;
+  font-size: large;
+  user-select: none;
+  color: white;
+}
+
+div.aks2 > div.aks2b1 > div.item3 > div.mtni3 > span:hover {
+  border-bottom: 3px solid lawngreen;
+  color: lightgreen;
+  transition: all 150ms linear;
+}
+
+div.aks2 > div.aks2b2 {
+  width: 50%;
+  margin-left: 3px;
+  margin-bottom: 50px;
+}
+
+div.aks2 > div.aks2b2 > div.item1 {
+  width: 99%;
+  height: 320px;
+  display: flex;
+  flex-flow: row;
+  margin-bottom: 5px;
+  background-color: green;
+  overflow: hidden;
+}
+
+div.aks2 > div.aks2b2 > div.item1 > div.i1mtn {
+  width: 50%;
+  height: 270px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-left: 20px;
+  padding-top: 40px;
+}
+
+div.aks2 > div.aks2b2 > div.item1 > div.i1mtn > h2 {
+  margin-bottom: 30px;
+  margin-top: 30px;
+  color: white;
+}
+
+div.aks2 > div.aks2b2 > div.item1 > div.i1mtn > h3 {
+  font-size: small;
+  color: white;
+  margin-bottom: 30px;
+}
+
+div.aks2 > div.aks2b2 > div.item1 > div.i1mtn > span {
+  width: 160px;
+  height: 35px;
+  text-align: center;
+  font-size: large;
+  color: white;
+  user-select: none;
+}
+
+div.aks2 > div.aks2b2 > div.item1 > div.i1mtn > span:hover {
+  border-bottom: 3px solid lawngreen;
+  color: lightgreen;
+  transition: all 150ms linear;
+}
+
+div.aks2 > div.aks2b2 > div.item1 > div.i1aks {
+  width: 50%;
+  height: inherit;
+  background-color: black;
+  background-image: url(./aks3i2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+div.aks2 > div.aks2b2 > div.item1 > div.i1aks:hover {
+  transform: scale(1.1);
+  transition: all 200ms linear;
+}
+
+div.aks2 > div.aks2b2 > div.item2 {
+  width: 99%;
+  height: 620px;
+  background-color: red;
+  background-image: url(./aks4i2.jpg);
+  background-size: cover;
+  background-position: top;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 5px;
+}
+
+div.aks2 > div.aks2b2 > div.item2 > div.mtni2 {
+  width: 580px;
+  padding-top: 400px;
+  margin: 0px 20px 3px 40px;
+}
+
+div.aks2 > div.aks2b2 > div.item2 > div.mtni2 > h2 {
+  margin-bottom: 30px;
+  font-size: 50px;
+}
+
+div.aks2 > div.aks2b2 > div.item2 > div.mtni2 > h3 {
+  font-size: medium;
+
+  margin-bottom: 30px;
+}
+
+div.aks2 > div.aks2b2 > div.item2 > div.mtni2 > span {
+  width: 160px;
+  height: 35px;
+  text-align: center;
+  font-size: large;
+  margin-bottom: 50px;
+  user-select: none;
+}
+
+div.aks2 > div.aks2b2 > div.item2 > div.mtni2 > span:hover {
+  border-bottom: 3px solid black;
+
+  transition: all 150ms linear;
+}
+
+div.aks2 > div.aks2b2 > div.item3 {
+  width: 99%;
+  height: 320px;
+  display: flex;
+  flex-flow: row;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 5px;
+
+  overflow: hidden;
+}
+
+div.aks2 > div.aks2b2 > div.item3 > div.mtni3 {
+  width: 50%;
+  height: 280px;
+
+  margin: 20px 10px 10px 22px;
+}
+
+div.aks2 > div.aks2b2 > div.item3 > div.mtni3 > h2 {
+  margin-bottom: 40px;
+  margin-top: 25px;
+  font-size: 30px;
+}
+
+div.aks2 > div.aks2b2 > div.item3 > div.mtni3 > h3 {
+  font-size: medium;
+  margin-bottom: 40px;
+}
+
+div.aks2 > div.aks2b2 > div.item3 > div.mtni3 > span {
+  width: 160px;
+  height: 35px;
+  text-align: center;
+  font-size: large;
+  user-select: none;
+}
+
+div.aks2 > div.aks2b2 > div.item3 > div.mtni3 > span:hover {
+  border-bottom: 3px solid black;
+  transition: all 150ms linear;
+}
+
+div.aks2 > div.aks2b2 > div.item3 > div.aks3i3 {
+  width: 50%;
+  height: inherit;
+  background-color: rgb(157, 126, 126);
+  background-image: url(aks4i4.jpg);
+  background-size: cover;
+}
+div.aks2 > div.aks2b2 > div.item3 > div.aks3i3:hover {
+  transform: scale(1.2);
+  transform-origin: center center;
+  transition: all 300ms linear;
+}
+
+div.bg2 {
+  width: 1290px;
+  height: 496px;
+  background-color: aqua;
+  background-image: url(./xboxlebasbg.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 145px 40px 30px 855px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div.bg2 > h2 {
+  font-size: 50px;
+  margin-bottom: 35px;
+}
+
+div.bg2 > h3 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: x-large;
+  margin-bottom: 35px;
+}
+
+div.bg2 > div.bg2span {
+  width: 160px;
+  height: 30px;
+  background-color: greenyellow;
+  text-align: center;
+  font-size: large;
+}
+
+div.bg2 > div.bg2span > span {
+  color: green;
+  user-select: none;
+}
+
+div.bg2 > div.bg2span > span:hover {
+  border-bottom: 3px solid green;
+  transition: all 150ms linear;
+}
+
+div.foter1 {
+  width: 100%;
+  height: 72px;
+  padding: 0 60px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+div.foter1 > div.sabad {
+  width: 100%;
+  height: 36px;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  column-gap: 15px;
+}
+
+div.foter1 > div.sabad > div.item1 {
+  padding: 8px;
+}
+
+div.foter1 > div.sabad > div.item2 > ul {
+  list-style: none;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  column-gap: 15px;
+}
+
+div.foter1 > div.sabad > div.item2 > ul > li > a > img {
+  width: 29px;
+  height: 29px;
+}
+
+div.foter1 > div.sabad > div.item2 > ul > li > a > img:hover {
+  background-color: rgb(221, 209, 209);
+}
+
+div.foter2 {
+  width: 100%;
+  background-color: rgb(232, 232, 232);
+  display: flex;
+  justify-content: center;
+}
+
+div.foter2 > div.foterli {
+  width: 90%;
+  height: inherit;
+  display: flex;
+  flex-flow: row;
+}
+
+div.foter2 > div.foterli > div.foter2ui2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div.foter2 > div.foterli > div.foter2ui2 > ul {
+  width: auto;
+  list-style: none;
+}
+
+div.foter2 > div.foterli > div.foter2ui2 > ul > li {
+  width: 160px;
+  margin-top: 15px;
+  color: gray;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-right: 20px;
+}
+
+div.foter2 > div.foterli > div.foter2ui2 > ul > li > a:hover {
+  border-bottom: 1px solid black;
+  color: black;
+}
+
+div.foter2 > div.foterli > div.foter2ui2 > ul > li.bold {
+  color: rgb(42, 42, 42);
+}
+
+div.foter3 {
+  width: 100%;
+  height: 96px;
+  background-color: rgb(232, 232, 232);
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: end;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 12px;
+}
+
+div.foter3 > a {
+  margin-right: 30px;
+}
+
+div.foter3 > a:hover {
+  border-bottom: 1px solid black;
+}

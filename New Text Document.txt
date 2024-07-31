@@ -1,0 +1,163 @@
+css 
+
+div.aks2 {
+  display: flex;
+  flex-flow: row;
+}
+
+div.b {
+  width: 50%;
+  height: 320px;
+  background-color: cadetblue;
+  margin-right: 3px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+div.b1 {
+  width: 50%;
+  height: 320px;
+  background-color: chartreuse;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+div.xbbg > img {
+  width: 1288px;
+  height: 550px;
+  margin: 0 5px 0 5px;
+}
+
+div.aks3 {
+  display: flex;
+  flex-flow: row;
+}
+
+div.bg {
+  width: 50%;
+  height: 320px;
+  background-color: chocolate;
+  margin-right: 3px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+div.bg1 {
+  width: 50%;
+  height: 320px;
+  background-color: coral;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+div.aks4 {
+  height: 939px;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+div.aks4 > div.mora {
+  width: 50%;
+  height: 320px;
+  background-color: cornflowerblue;
+}
+
+div.aks4 > div.mora1 {
+  width: 50%;
+  height: 620px;
+  background-color: crimson;
+}
+
+div.aks4 > div.mora2 {
+  width: 50%;
+  height: 620px;
+  background-color: cyan;
+  position: absolute;
+  left: 0;
+  top: 3861px;
+}
+
+div.aks4 > div.mora3 {
+  width: 50%;
+  height: 320px;
+  background-color: darkblue;
+  position: absolute;
+  right: 0;
+  top: 3461px;
+}
+
+div.xbbg1 > img {
+  width: 1288px;
+  height: 554px;
+  margin-top: 3px;
+}
+
+div.foter {
+  width: 100%;
+  height: 72px;
+  background-color: darkgoldenrod;
+  margin: 3px 0 3px 0;
+}
+
+div.foter1 {
+  width: 100%;
+  height: 252px;
+  background-color: darkgreen;
+  margin: 3px 0 3px 0;
+}
+
+div.foter2 {
+  width: 100%;
+  height: 92px;
+  background-color: darkmagenta;
+  margin: 3px 0 3px 0;
+}
+
+
+==========================================
+
+html
+
+<div class="mori2">
+        
+      </div>
+
+      <div class="mori3"></div>
+
+    </div> 
+
+     <div class="aks2">
+      <div class="b"></div>
+      <div class="b1"></div>
+    </div>
+
+    <div class="xbbg">
+      <img src="./css/xboxbg1.jpg" alt="xbox celler" />
+    </div>
+
+    <div class="aks3">
+      <div class="bg"></div>
+      <div class="bg1"></div>
+    </div>
+
+    <div class="aks4">
+      <div class="mora"></div>
+
+      <div class="mora1"></div>
+
+      <div class="mora2"></div>
+
+      <div class="mora3"></div>
+    </div>
+
+    <div class="xbbg1">
+      <img src="./css/xboxlebasbg.jpg" alt="xbox lebas" />
+    </div>
+
+    <div class="foter"></div>
+
+    <div class="foter1"></div>
+
+    <div class="foter2"></div>
+
+============================================================
